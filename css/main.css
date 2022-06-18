@@ -136,7 +136,7 @@ img{
 @media screen and (max-width:580px) {
     .container{
         padding: 0 20px;
-        padding-top: 130px;
+        padding-top: 10px;
     }
     .weather{
         max-width: 400px;
@@ -148,6 +148,7 @@ img{
     }
     .weather{
         max-width: 250px;
+        padding: 6px 18px;
     }
     .weather_cities{
         display: inline-block;
@@ -175,11 +176,27 @@ img{
 }
 @media screen and (max-width:350px){
     .weather{
-        margin-top: 40px;
+        margin-top: 30px;
     }
 }
-@media screen and (max-width:318px){
+
+@media screen and (max-width:328px){
     .weather_cities a{
         font-size: 22px;
+    }
+    .weather{
+        padding: 6px 18px;
+    }
+}
+@media screen and (max-height:694px){
+    .container{
+        padding-top:20px;
+        margin: 0;
+    }
+}
+@media screen and (max-height:462px){
+    .container{
+        padding-top:5px;
+        margin: 0;
     }
 }
