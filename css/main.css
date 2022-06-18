@@ -147,7 +147,7 @@ img{
         padding-top: 10px;
     }
     .weather{
-        max-width: 300px;
+        max-width: 250px;
     }
     .weather_cities{
         display: inline-block;
@@ -156,5 +156,25 @@ img{
         margin-right: 0;
         font-size: 29px;
         line-height: 39px;
+    }
+    .weather_city{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .weather_status{
+        font-size: 30px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .weather_temp{
+        font-size: 40px;
+    }
+    .weather_feels-like{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:350px){
+    .weather{
+        margin-top: 40px;
     }
 }
