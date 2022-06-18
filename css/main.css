@@ -178,3 +178,8 @@ img{
         margin-top: 40px;
     }
 }
+@media screen and (max-width:318px){
+    .weather_cities a{
+        font-size: 22px;
+    }
+}
